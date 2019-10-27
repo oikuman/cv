@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Fira Sans", sans-serif;
+    /* width of screen */
+    max-width: 800px;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    box-shadow: -12px 35px 32px 0px rgba(0, 0, 0, 0.75);
+}
+
+.column {
+    float: left;
+
+    padding: 10px;
+    /* height: 300px; Should be removed. Only for demonstration */
+}
+
+.column-short {
+    width: 30%;
+}
+
+.column-long {
+    width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
