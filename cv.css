@@ -1,51 +1,86 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: "Fira Sans", sans-serif;
-    /* width of screen */
-    max-width: 800px;
-    background-color: aqua;
-    margin: 0;
-    padding: 0;
+  font-family: "Fira Sans", sans-serif;
+  /* width of screen */
+  max-width: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    rgb(162, 162, 230) 0%,
+    rgb(162, 162, 230) 25%,
+    rgb(223, 223, 157) 25%,
+    rgb(223, 223, 157) 100%
+  );
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  margin-top: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: rgb(27, 8, 51);
+  font-size: 18px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-.start {
-    display: flex;
-    justify-content: space-between;
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .photo {
-    box-shadow: -12px 35px 32px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -12px 35px 32px 0px rgba(0, 0, 0, 0.75);
 }
 
 .column {
-    float: left;
+  float: left;
 
-    padding: 10px;
-    /* height: 300px; Should be removed. Only for demonstration */
+  padding: 10px;
+  /* height: 300px; Should be removed. Only for demonstration */
 }
 
 .column-short {
-    width: 30%;
+  width: 25%;
 }
 
 .column-long {
-    width: 70%;
+  width: 75%;
+}
+
+.column-middle {
+  width: 50%;
+}
+
+.column-right {
+  width: 25%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
