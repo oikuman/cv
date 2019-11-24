@@ -49,8 +49,31 @@ p {
   margin: 0;
 }
 
+.icon {
+  /* border-radius: 70%; */
+}
+
 .photo {
   box-shadow: -12px 35px 32px 0px rgba(0, 0, 0, 0.75);
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.centered-text {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-elem {
+  height: 50px;
 }
 
 .column {
