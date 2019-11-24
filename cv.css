@@ -57,6 +57,10 @@ p {
   box-shadow: -12px 35px 32px 0px rgba(0, 0, 0, 0.75);
 }
 
+.text {
+  line-height: 23px;
+}
+
 .centered {
   display: flex;
   flex-direction: column;
