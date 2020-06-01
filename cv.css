@@ -13,10 +13,10 @@ html {
 body {
   background: linear-gradient(
     to right,
-    rgb(162, 162, 230) 0%,
-    rgb(162, 162, 230) 27%,
-    rgb(223, 223, 157) 27%,
-    rgb(223, 223, 157) 100%
+    rgb(240, 152, 146) 0%,
+    rgb(240, 152, 146) 27%,
+    rgb(146, 240, 240) 27%,
+    rgb(146, 240, 240) 100%
   );
   background-repeat: no-repeat;
   margin: 0;
@@ -31,6 +31,10 @@ section {
 h1 {
   text-align: center;
   margin-top: 0;
+}
+
+.name {
+  padding-left: 50px;
 }
 
 h2 {
@@ -49,6 +53,11 @@ p {
   margin: 0;
 }
 
+.line {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
 .icon {
   /* border-radius: 70%; */
 }
@@ -61,12 +70,19 @@ p {
   /* line-height: 16px; */
 }
 
+.title {
+  font-size: 22px;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
 .centered {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  margin-left: 50px;
+  margin-left: 70px;
+  margin-top: 6px;
 }
 
 .centered-text {
@@ -78,7 +94,9 @@ p {
 }
 
 .text-elem {
-  height: 50px;
+  height: 60px;
+  margin: 0 0 0 20px;
+  padding: 0;
 }
 
 .column {
