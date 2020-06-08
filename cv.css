@@ -138,3 +138,7 @@ p {
   display: table;
   clear: both;
 }
+
+.margin {
+  height: 20px;
+}
