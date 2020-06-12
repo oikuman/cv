@@ -5,7 +5,7 @@
 html {
   font-family: "Fira Sans", sans-serif;
   /* width of screen */
-  max-width: 800px;
+  max-width: 880px;
   margin: 0;
   padding: 0;
 }
@@ -56,6 +56,10 @@ p {
 .line {
   margin: 0 0 0 20px;
   padding: 0;
+}
+
+.break {
+  max-width: 600px;
 }
 
 .icon {
@@ -140,5 +144,5 @@ p {
 }
 
 .margin {
-  height: 40px;
+  height: 20px;
 }
